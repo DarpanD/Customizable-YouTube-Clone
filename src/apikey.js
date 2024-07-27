@@ -1,1 +1,3 @@
-export const YouTube_API_KEY = "AIzaSyB6bxAN2Kv0N4_lRUv9CAWx_kg4Imh4C9w";
+export const YouTube_API_KEY = import.meta.env.VITE_YouTube_API_KEY;
+
+// export const YouTube_API_KEY = "enter your api key here and comment the above line";

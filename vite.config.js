@@ -1,8 +1,12 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import dotenv from "dotenv";
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  base: "/Customizable-YouTube-Clone/",
+dotenv.config();
+
+export default defineConfig(({ command, mode }) => {
+  return {
+    base: command === "serve" ? "/" : "/Customizable-YouTube-Clone/",
+    plugins: [react()],
+  };
 });

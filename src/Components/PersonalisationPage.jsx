@@ -38,7 +38,10 @@ const PersonalisationPage = ({ RegionCode, setRegionCode }) => {
       <form>
         <div className="regionCode">
           <h1>Region</h1>
-          <select onChange={(e) => setRegionCode(e.target.value)}>
+          <select
+            onChange={(e) => setRegionCode(e.target.value)}
+            value={RegionCode}
+          >
             {countryData.map((country) => (
               <option key={country.id} value={country.id}>
                 {country.name}

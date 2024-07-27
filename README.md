@@ -40,10 +40,19 @@ Ensure you have the following installed on your machine:
 
 3. **Configure API Key**
 
+   **_ option 1 _**
    -Navigate to src/apikey.js in your project directory.
    -Paste the API key into the variable Youtube_API_key inside the single quotation marks.
    ![apiKeyHelp](./public/apikeyhelp.png)
    -Save the file.
+   **_ option 2 _**
+
+   - Create a `.env` file in the root of the project.
+   - Add your YouTube API key to the `.env` file like this:
+
+   ```bash
+      VITE_YOUTUBE_API_KEY= 'your_api_key_here';
+   ```
 
 4. Install Dependencies
    ```bash

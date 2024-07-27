@@ -27,8 +27,13 @@ const VideoCard = ({ videoObj, suggestionActive, fromSearch }) => {
   return (
     <div
       className={`flex ${
-        suggestionActive ? "suggestionsActive " : "videocard"
-      } ${fromSearch ? "fromSearch" : ""}`}
+        suggestionActive
+          ? "suggestionsActive "
+          : fromSearch
+          ? "fromSearch"
+          : "videocard"
+      }
+      `}
     >
       <Link
         to={`/video/${categoryId}/${videoId}`}
