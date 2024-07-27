@@ -26,13 +26,17 @@ const Recomendations = ({ categoryId, RegionCode }) => {
     <React.Fragment>
       <h1>Suggested Videos</h1>
       <div className="recomendations flex">
-        {SuggestionsData.map((videoObj) => (
-          <VideoCard
-            key={videoObj.id}
-            videoObj={videoObj}
-            suggestionActive={true}
-          />
-        ))}
+        {SuggestionsData && SuggestionsData.length > 0 ? (
+          SuggestionsData.map((videoObj) => (
+            <VideoCard
+              key={videoObj.id}
+              videoObj={videoObj}
+              suggestionActive={true}
+            />
+          ))
+        ) : (
+          <div>No results found</div>
+        )}
       </div>
     </React.Fragment>
   );

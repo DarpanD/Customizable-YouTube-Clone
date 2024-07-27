@@ -69,9 +69,13 @@ const ChannelPage = () => {
       <hr />
       <h2>Videos from {Channel.snippet.title}</h2>
       <div className="channel-video-container flex alc">
-        {ChannelVideos.map((videoObj) => (
-          <VideoCard key={videoObj.id} videoObj={videoObj} />
-        ))}
+        {ChannelVideos && ChannelVideos.length > 0 ? (
+          ChannelVideos.map((videoObj) => (
+            <VideoCard key={videoObj.id} videoObj={videoObj} />
+          ))
+        ) : (
+          <div>No results found</div> // Optional: Display a message if no data
+        )}
       </div>
       <button
         className="channel-video-increaser"

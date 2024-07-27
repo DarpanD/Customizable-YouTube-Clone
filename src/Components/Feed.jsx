@@ -23,9 +23,13 @@ const Feed = ({ Category, RegionCode }) => {
   return (
     <>
       <div className="feed flex alc">
-        {Data.map((videoObj) => {
-          return <VideoCard key={videoObj.id} videoObj={videoObj} />;
-        })}
+        {Data && Data.length > 0 ? (
+          Data.map((videoObj) => (
+            <VideoCard key={videoObj.id} videoObj={videoObj} />
+          ))
+        ) : (
+          <div>No results found</div> // Optional: Display a message if no data
+        )}
       </div>
     </>
   );
