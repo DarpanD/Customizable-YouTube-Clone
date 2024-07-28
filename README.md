@@ -34,7 +34,7 @@ Ensure you have the following installed on your machine:
    -Enable the API.
    -Create credentials to obtain an API key.
    -Copy the API key displayed on the screen.
-   ![ApiKeyHelp](./public/image.png)
+   ![ApiKeyHelp](./public/image.jpg)
 
    **![Youtube Video For More Help](https://www.youtube.com/watch?v=LLAZUTbc97I)**
 
@@ -42,10 +42,10 @@ Ensure you have the following installed on your machine:
 
    **_ option 1 _**
    -Navigate to src/apikey.js in your project directory.
-   -Paste the API key into the variable Youtube_API_key inside the single quotation marks.
+   -Paste the API key into the variable Youtube*API_key inside the single quotation marks.
    ![apiKeyHelp](./public/apikeyhelp.png)
    -Save the file.
-   **_ option 2 _**
+   \*\** option 2 \_\*\*
 
    - Create a `.env` file in the root of the project.
    - Add your YouTube API key to the `.env` file like this:
