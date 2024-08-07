@@ -27,7 +27,7 @@ Ensure you have the following installed on your machine:
    ```
 2. **Google Developers Console Setup**
 
-   -Log in to the Google Developers Console ![Google Developers Console](https://console.cloud.google.com/) using your Google account.
+   -Log in to the Google Developers Console [Google Developers Console](https://console.cloud.google.com/) using your Google account.
    -Create a new project.
    -On the new project dashboard, click Explore & Enable APIs.
    -In the library, navigate to YouTube Data API v3 under YouTube APIs.
@@ -36,7 +36,7 @@ Ensure you have the following installed on your machine:
    -Copy the API key displayed on the screen.
    ![ApiKeyHelp](./public/image.jpg)
 
-   **![Youtube Video For More Help](https://www.youtube.com/watch?v=LLAZUTbc97I)**
+   **[Youtube Video For More Help](https://www.youtube.com/watch?v=LLAZUTbc97I)**
 
 3. **Configure API Key**
 
