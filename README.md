@@ -27,13 +27,13 @@ Ensure you have the following installed on your machine:
    ```
 2. **Google Developers Console Setup**
 
-   -Log in to the Google Developers Console [Google Developers Console](https://console.cloud.google.com/) using your Google account.
-   -Create a new project.
-   -On the new project dashboard, click Explore & Enable APIs.
-   -In the library, navigate to YouTube Data API v3 under YouTube APIs.
-   -Enable the API.
-   -Create credentials to obtain an API key.
-   -Copy the API key displayed on the screen.
+   - Log in to the Google Developers Console [Google Developers Console](https://console.cloud.google.com/) using your Google account.
+   - Create a new project.
+   - On the new project dashboard, click Explore & Enable APIs.
+   - In the library, navigate to YouTube Data API v3 under YouTube APIs.
+   - Enable the API.
+   - Create credentials to obtain an API key.
+   - Copy the API key displayed on the screen.
    ![ApiKeyHelp](./public/image.jpg)
 
    **[Youtube Video For More Help](https://www.youtube.com/watch?v=LLAZUTbc97I)**
@@ -41,10 +41,10 @@ Ensure you have the following installed on your machine:
 3. **Configure API Key**
 
    **_ option 1 _**
-   -Navigate to src/apikey.js in your project directory.
-   -Paste the API key into the variable Youtube*API_key inside the single quotation marks.
+   - Navigate to src/apikey.js in your project directory.
+   - Paste the API key into the variable Youtube*API_key inside the single quotation marks.
    ![apiKeyHelp](./public/apikeyhelp.png)
-   -Save the file.
+   - Save the file.
    \*\** option 2 \_\*\*
 
    - Create a `.env` file in the root of the project.
