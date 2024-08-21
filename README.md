@@ -45,7 +45,8 @@ Ensure you have the following installed on your machine:
    - Paste the API key into the variable Youtube*API_key inside the single quotation marks.
    ![apiKeyHelp](./public/apikeyhelp.png)
    - Save the file.
-   \*\** option 2 \_\*\*
+   
+   **_option 2 _**
 
    - Create a `.env` file in the root of the project.
    - Add your YouTube API key to the `.env` file like this:
